@@ -1,0 +1,13 @@
+Package: rzap
+Title: Use this package to convert Whatsapp conversations to csv files.
+Version: 0.1.0
+Author: Allan Sales
+Maintainer: The package maintainer <yourself@somewhere.net>
+Description: The script works for chats in groups and people. Group members added to their agenda 
+  need to be described in up to four words (eg maria do carmo UFCG) and each name should consist only 
+  of letters or numbers. Date / Day / Month / Year / Month / Day / Year Style Formats and Times in 
+  AM / PM or xx: xx Format Work Correctly
+Depends: R (>= 3.4.0)
+License: GPL-3
+Imports: dplyr, stringr, readr 
+Encoding: UTF-8
